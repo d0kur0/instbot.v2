@@ -1,0 +1,34 @@
+body {
+  font-family: "Gilroy", sans-serif;
+  min-height: 100vh;
+  padding: 0 20px;
+  background-color: #202020;
+  color: rgb(231, 231, 231);
+}
+
+.layout {
+  display: flex;
+}
+
+.layout-right {
+  flex: 1 1 0;
+}
+
+.layout-left {
+  margin-right: 40px;
+  flex: 2 1 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(172, 172, 172, 0.185);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(167, 167, 167, 0.5);
+}

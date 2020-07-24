@@ -1,0 +1,39 @@
+.expander {
+}
+
+.expander-body {
+  transition: 0.3s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.expander-body-hide {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+
+.expander-header-hashtag {
+  padding-right: 10px;
+}
+
+.expander-header {
+  transition: 0.3s;
+  user-select: none;
+  display: flex;
+  cursor: pointer;
+}
+
+.expander-header-hide {
+  color: #9c9c9c;
+}
+
+.expander-header:hover .expander-header-hashtag {
+  color: rgb(34, 148, 255);
+}
+
+.expander-status {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}

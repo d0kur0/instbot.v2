@@ -1,0 +1,56 @@
+.logs {
+  border-radius: 8px;
+  padding: 15px 20px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.logs-message {
+  font-size: 0.9em;
+}
+
+.logs-header {
+  color: rgb(127, 219, 202);
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.logs-header:first-child {
+  margin: 0;
+}
+
+.logs-header::before {
+  font-family: "Segoe UI Emoji";
+  content: "➣ ";
+}
+
+.logs-success {
+  padding-left: 15px;
+  color: rgb(104, 245, 167);
+  font-weight: 400;
+}
+
+.logs-error {
+  padding-left: 15px;
+  color: rgb(255, 130, 126);
+  font-weight: 400;
+}
+
+.logs-info {
+  padding-left: 15px;
+  color: rgb(206, 206, 206);
+  font-weight: 400;
+}
+
+.logs-info::before,
+.logs-error::before,
+.logs-success::before {
+  content: "⮡ ";
+  padding-right: 5px;
+}
+
+.logs-printing {
+  color: #fff;
+  height: 20px;
+  width: 60px;
+}
